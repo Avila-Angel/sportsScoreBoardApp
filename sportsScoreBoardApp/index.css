@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background:#111827;
+    font-family: '60s Scoreboard', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#title {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 21px;
+}
+
+#homeScore, #guestScore {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+    font-family: 60s Scoreboard;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin-top: 0px;
+    margin-bottom: 26px;
+    padding-bottom: 12px;
+
+}
+
+#addOneH-btn, #addTwoH-btn, #addThreeH-btn,
+#addOneG-btn, #addTwoG-btn, #addThreeG-btn {
+    width: 40px;
+    height: 40px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    background: #111827;
+}
+
+#addOneH-btn, #addTwoH-btn, #addOneG-btn, #addTwoG-btn {
+    margin-right: 6px;
+}
